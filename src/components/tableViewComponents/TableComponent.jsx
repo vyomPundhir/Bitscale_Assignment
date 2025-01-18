@@ -1,7 +1,7 @@
 import { tableHeaderData } from "../../constants/tableViewConstants";
 import { tableRowData } from "../../constants/tableViewConstants";
 
-const TableComponent = () => {
+const  TableComponent = () => {
 	return (
 		<section className="border-[1px] rounded-sm border-[black]">
 			<div className="w-full pl-[10px] flex flex-row justify-start items-center gap-[]">

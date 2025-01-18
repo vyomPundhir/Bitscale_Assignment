@@ -1,5 +1,9 @@
-const TableSidebar = () => {
-	return <div>Tab</div>;
-};
+import React from 'react'
 
-export default TableSidebar;
+const TableSidebar = () => {
+	return (
+		<div>TableSidebar</div>
+	)
+}
+
+export default TableSidebar
