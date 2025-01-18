@@ -68,7 +68,7 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="text-black dark:bg-[#191919] bg-[#e9e5e5] dark:text-white rounded-lg flex flex-col justify-center items-center w-[50%] max-w-[450px] gap-[35px] border-[1px] py-[30px] px-[30px] border-[black] dark:border-[#787878]">
+    <div className="text-black dark:bg-[#191919] bg-[#e9e5e5] dark:text-white rounded-lg flex flex-col justify-center items-center lg:w-1/2 sm:max-w-[400px]  gap-[35px] border-[1px] py-[30px] px-[30px] border-[black] dark:border-[#787878]">
       <Toaster />
 
       <h1 className="text-[30px] w-full text-center font-[700] underline">

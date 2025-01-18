@@ -25,7 +25,7 @@ function App() {
 				onChange={handleSidebarToggle}
 				checked={isSidebarVissible}
 			/>
-			<div className="drawer-content min-h-screen max-w-7xl mx-auto px-10 w-full">
+			<div className="drawer-content min-h-screen max-w-7xl mx-auto w-full lg:px-10">
 				{/* Page content here */}
 				<Navbar sidebarToggle={handleSidebarToggle} />
 				<Outlet />

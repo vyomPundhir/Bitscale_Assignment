@@ -24,14 +24,14 @@ const Layout = () => {
 	}, []);
 
 	return profileInfo ? (
-		<div className="w-full mt-[50px] flex flex-col items-center gap-[40px]">
+		<div className="mt-[50px] flex flex-col justify-center items-center px-[20px] gap-[40px]">
 			<ProfileName
 				profileImg={profileInfo.profileImg}
 				fullName={profileInfo.fullName}
 				designation={profileInfo.designation}
 				shortAddress={profileInfo.shortAddress}
 			/>
-			<div className="flex flex-row flex-wrap justify-center items-center gap-[30px]">
+			<div className="flex flex-row flex-wrap justify-center items-center gap-[30px] px-[30px] py-[30px]">
 				<PersonalInformation personalInfo={profileInfo.personalInfo} />
 				<Address addressInfo={profileInfo.addressInfo} />
 			</div>

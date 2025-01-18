@@ -19,7 +19,7 @@ const Navbar = ({ sidebarToggle }) => {
   const theme = useAtomValue(themeAtom);
 
   return (
-    <div className="flex flex-row justify-between items-center py-2">
+    <div className="flex flex-row justify-between items-center py-2 px-2 w-full">
       <button className="" onClick={sidebarToggle}>
         {location.pathname !== "/" && location.pathname !== "/login" && (
           <img

@@ -3,7 +3,7 @@ import Layout from '../components/profileComponents/Layout'
 
 const ProfilePage = () => {
   return (
-    <div className='w-[100%]'>
+    <div>
       <Layout/>
     </div>
   )

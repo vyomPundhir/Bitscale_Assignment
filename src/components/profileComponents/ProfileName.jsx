@@ -3,7 +3,7 @@
 const ProfileName = ({ profileImg, fullName, designation, shortAddress }) => {
 	return (
 		<div className="flex flex-row justify-center items-start px-[50px]">
-			<div className="flex flex-row justify-start items-center gap-[30px]">
+			<div className="flex sm:flex-row xs:flex-col justify-start items-center gap-[30px]">
 				<img
 					src={profileImg}
 					alt="profile-icon"

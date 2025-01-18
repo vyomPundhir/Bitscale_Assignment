@@ -3,7 +3,7 @@ import LoginForm from './LoginForm'
 
 const Layout = () => {
   return (
-    <div className="w-full h-screen flex flex-row justify-center items-center">
+    <div className="h-screen px-[30px] flex flex-row justify-center items-center">
       <LoginForm/>
     </div>
   )
